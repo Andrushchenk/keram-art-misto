@@ -1026,3 +1026,158 @@ h1,h2,h3,h4,h5,h6, p
         margin-bottom: 5px;
     }
 }
+
+@media (max-width:1000px) and (orientation: landscape) {
+
+    .header__inner{
+        padding: 0 15px;
+    }
+
+    .nav{
+        display: none;
+    }
+    .nav{
+        display:none;
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: right;
+        text-align: right;
+        background-color: rgb(0, 0, 0,60%);
+        position: absolute;
+        right: 0;
+        top: 100%;
+       }
+    .nav.show{
+        display: flex;
+       }
+    .nav__link{
+        padding: 9px 15px;
+        margin-right: 0;
+       }
+    .burger{
+        display: block;
+        padding-right: 20px;
+    }
+
+    .logo {
+        font-size: 22px;
+        padding-left: 20px;
+    }
+    .logo__text{
+        font-size: 22px;
+    }
+    .nav__link{
+        font-size: 16px;
+    }
+    .header__zaholovok{
+        max-width: 300px;
+        font-size: 25px;
+        margin-top: 280px;
+    }
+    .a__links{
+        font-size: 14px;
+    }
+
+    .header__zaholovok{
+        margin-top: 195px;
+    }
+
+    .links{
+        margin-bottom:15px;
+    }
+
+    .cont__inf{
+        padding: 15px 0;
+
+    }
+
+    .info__info{
+        overflow: hidden;
+    }
+
+    .info__zaholovok{
+        font-size: 16px;
+    }
+
+    .info__text{
+        font-size: 9px;
+    }
+
+    .info__text__margin{
+        margin: 5px 0;
+    }
+    .clean__text{
+        margin-bottom: 5px ;
+    }
+
+    .clean__text:last-child{
+        margin-bottom:0px ;
+    }
+
+    .info__img{
+        width: 50%;
+        padding-left: 10px;
+    }
+
+    .info__info{
+        padding: 0px;
+    }
+
+    .info__image {
+        position: relative;
+        top: 0;
+        right: 0;
+        transform: translateX(0);
+        transform: translateY(0);
+
+    }
+
+    .item__project{
+        height: 60%;
+    }
+
+    .project__img{
+        height: 100%;
+    }
+
+    .item__project__text{
+        font-size: 11px;
+    }
+
+    /* KERIVNUKU */
+    .kerivnuku{
+        padding:50px 0 50px 0;
+    }
+
+    .kerivnuku__item:first-child{
+        margin-top: 100px;
+    }
+    .kerivnuku__item{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        margin-right:0 ;
+        padding: 0 30px;
+        margin-bottom: 25px;
+    }
+    .kerivnuku__item:last-child{
+        margin-bottom: 0;
+    }
+    .kerivnuku__text{
+        text-align: center;
+    }
+
+    .contacts__inner{
+        padding: 0;
+        overflow: hidden;
+        padding: 0 30px;
+    }
+
+    .cont__info{
+        padding: 30px;
+    }
+
+  }
