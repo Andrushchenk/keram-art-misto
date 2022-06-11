@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="ua">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="img/ico/ico.ico">
+    <link rel="stylesheet" href="aos.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <title>КерамArtМісто</title>
+</head>
+<body>
+    <svg style="display:none;">
+
+        <symbol id="facebook" viewBox="0 0 30 30">
+                <g>
+                    <path d="M12,27V15H8v-4h4V8.852C12,4.785,13.981,3,17.361,3c1.619,0,2.475,0.12,2.88,0.175V7h-2.305C16.501,7,16,7.757,16,9.291V11h4.205l-0.571,4H16v12H12z"/>
+                </g>
+        </symbol>
+
+        <symbol id="twitter" viewBox="0 0 50 50">
+            <g>
+                <path d="M50.061,10.438c-1.846,0.818-3.826,1.369-5.908,1.62c2.125-1.273,3.757-3.29,4.523-5.688c-1.986,1.177-4.19,2.033-6.531,2.493c-1.874-2-4.547-3.247-7.504-3.247c-5.68,0-10.284,4.604-10.284,10.282c0,0.805,0.092,1.589,0.269,2.343C16.08,17.812,8.502,13.718,3.429,7.497c-0.885,1.522-1.391,3.289-1.391,5.172c0,3.567,1.812,6.713,4.574,8.56c-1.688-0.054-3.271-0.517-4.657-1.288c0,0.044,0,0.086,0,0.131c0,4.984,3.544,9.134,8.245,10.084c-0.86,0.236-1.769,0.36-2.707,0.36c-0.664,0-1.309-0.064-1.938-0.186c1.313,4.081,5.108,7.06,9.607,7.143c-3.517,2.757-7.951,4.399-12.77,4.399c-0.833,0-1.649-0.048-2.452-0.144c4.548,2.919,9.956,4.619,15.762,4.619c18.915,0,29.26-15.668,29.26-29.252c0-0.448-0.011-0.894-0.03-1.332C46.94,14.313,48.684,12.5,50.061,10.438z"/>
+            </g>
+        </symbol>
+
+        <symbol id="linkedin" viewBox="0 0 64 64">
+            <g>
+                <path d="M48,8H16c-4.418,0-8,3.582-8,8v32c0,4.418,3.582,8,8,8h32c4.418,0,8-3.582,8-8V16C56,11.582,52.418,8,48,8z M24,47h-5V27h5 V47z M24.029,23.009C23.382,23.669,22.538,24,21.5,24c-1.026,0-1.865-0.341-2.519-1.023S18,21.458,18,20.468 c0-1.02,0.327-1.852,0.981-2.498C19.635,17.323,20.474,17,21.5,17c1.038,0,1.882,0.323,2.529,0.969 C24.676,18.615,25,19.448,25,20.468C25,21.502,24.676,22.349,24.029,23.009z M47,47h-5V35.887C42,32.788,40.214,31,38,31 c-1.067,0-2.274,0.648-2.965,1.469S34,34.331,34,35.594V47h-5V27h5v3.164h0.078c1.472-2.435,3.613-3.644,6.426-3.652 C44.5,26.5,47,29.5,47,34.754V47z"/>
+            </g>
+        </symbol>
+
+    </svg>
+
+    <div class="mask">
+        <div class="loader"> </div>
+    </div>
+
+
+<div class="cont" id="main">
+    <div class="header" id="header">
+        <div class="header__inner">
+            <div class="logo">Керам<span class="logo__text">ArtМісто</span></div>
+
+                <nav class="nav" id="nav">
+                    <a class="nav__link active btn" href="#" data-scroll="#main">Головна</a>
+                    <a class="nav__link btn" href="#" data-scroll="#projects">Проєкти</a>
+                    <a class="nav__link btn" href="#" data-scroll="#kerivnuku">Контакти</a>
+                </nav>
+
+                    <button class="burger" type="button" id="navToggle">
+                        <span class="burger__item">Menu</span>
+                    </button>
+
+        </div>
+    </div>
+
+    <div class="header__zaholovok" id="zaholovok">Традиція орнаментального розпису бубнівської кераміки</div>
+
+    <div class="links" >
+        <a href="https://www.facebook.com/keramartmisto/?ref=page_internal" class="a__links">Facebook</a>
+        <a href="#" class="a__links">Instagram</a>
+        <a href="#" class="a__links">Twitter</a>
+  </div>
+</div>
+
+
+ <div class="info"  id="info" >
+    <div class="info__inner">
+        <div class="container">
+            <div class="info__img" //data-aos="fade-right"//>
+                <img class="info__image" src="img/info/img-project.jpg">
+            </div>
+            <div class="info__info">
+                <!-- <div class="info__zaholovok">
+                    Осередок гончарства на Вінниччині
+                </div>  -->
+                <div class="info__text" data-aos="fade-left">
+
+                    <span class="info__zaholovok">Осередок гончарства на Вінниччині</span>
+                    Два сусідніх села на Вінниччині – Бубнівка й Новоселівка Гайсинського району – відомі далеко за межами України як осередки гончарства. Їхню давню спеціалізацію засвідчує й колишня назва Новоселівки – Гончарівка. Села розташовані на протилежних берегах річки Соб, лівої притоки Південного Бугу, що впадає в Чорне море.
+                    <span class="info__text__margin">
+                    Гончарний промисел існував тут з ХVІІ століття. За наказом графа Станіслава Потоцького, власника  цих земель, з Умані у село було завезено близько 30 гончарів. Історичним осередком бубнівської кераміки вважають село Бубнівка. Першими бубнівськими майстрами були Арехта Гончар і його син Семен. «Батьком» бубнівського гончарного мистецтва вважають Андрія Гончара (1823-1926), який юнаком втік від поміщика в Гайсин і у тамтешнього гончара Сили Жерденівського опанував технологію підполив’яного розпису.</span>
+                    <span class="clean__text"> Майстерність Андрія Гончара вразила місцевих бубнівських гончарів красою  візерунку і переливами досі небачених барв. Нова естетика гончарних виробів сподобалася і споживачам продукції. Вироби бубнівських гончарів продавалися на сільських, містечкових та міських ярмарках і таким чином розповсюджувалися в селах навколо Гайсина, Тульчина, Старого Ладижина, Немирова, Брацлава, Тростянця і багатьох інших міст і містечок Поділля.</span>
+                    <span class="clean__text"> Наступні покоління майстрів вносили свої індивідуальні впливи і новації в орнаментику бубнівського розпису, розвиваючи і збагачуючи її. Традиція орнаментального розпису бубнівської кераміки сформувалася в середині ХІХ століття завдяки гончару Агафону Герасименку та його синам Якиму і Якову. Бубнівчани переповідають, що Агафон за кілька прийомів робив такий посуд, що туди могла поміститися дитина. А брати Яким і Яків Герасименки стали найвідомішими гончарами Бубнівки за всю її історію. Вони працювали завжди разом − один творив форму виробу на гончарному крузі, а другий її розписував..</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+ <div class="projects" id="projects">
+    <div class="projects__inner" >
+
+        <div class="item__project" >
+            <img class="project__img" src="img/projects/1.jpg">
+            <div class="item__project__hover">
+
+                <div class="item__project__text">
+                    Місцеві гончарі традиційно виготовляли горщики, баньки, гладущики, великі горшки «для оказій», миски; іграшки – «баранчики» (фото виробів з фондів ВОЦНТ), «коники», «півники», «гусочки», «баришні», «москалі».
+                </div>
+            </div>
+        </div>
+        <div class="item__project">
+            <img class="project__img" src="img/projects/2.jpg">
+            <div class="item__project__hover">
+
+                <div class="item__project__text">
+                    Особливо славилися бубнівські миски й тарелі коричневої поливи, прикрашені квітковими орнаментами з гронами винограду. Жовтогарячі керамічні вироби орнаментувалися переважно темно-зеленим, коричневим, білим, рідше блакитним і сірим кольорами.
+                </div>
+            </div>
+        </div>
+        <div class="item__project">
+            <img class="project__img" src="img/projects/3.jpg">
+            <div class="item__project__hover">
+
+                <div class="item__project__text">
+                    Сам же розпис робиться колючкою з гілки акації. В результаті творчої фантазії майстра і поєднання його найпростіших технічних засобів і прийомів, розпис має неповторну і розмаїту декоративну красу, вишуканість і багатство графічних форм.
+                </div>
+            </div>
+        </div>
+        <div class="item__project">
+            <img class="project__img" src="img/projects/4.jpg">
+            <div class="item__project__hover">
+
+                <div class="item__project__text">
+                    Фарби для керамічного розписування мисок, полумисків і поставців гончарі виготовляли власноручно. Палітра розпису складається з білої, чорної, зеленої та червоної фарб. Біла виготовляється з каолінових глин місцевих родовищ; червона – з особливої глини, яка в середовищі гончарів іменується «червінь».
+                </div>
+            </div>
+        </div>
+        <div class="item__project">
+            <img class="project__img" src="img/projects/5.jpg">
+            <div class="item__project__hover">
+
+                <div class="item__project__text">
+                    Прозору поливу в минулому майстри виготовляли із перепаленого свинцю, нині користуються готовою поливою промислового виробництва. Для приготування фарб і доведення їх до відповідної консистенції майстри застосовували ручні жорна архаїчної конструкції.
+                </div>
+            </div>
+        </div>
+        <div class="item__project">
+            <img class="project__img" src="img/projects/6.jpg">
+            <div class="item__project__hover">
+
+                <div class="item__project__text">
+                    Сучасні бубнівські майстри користуються керамічними фарбами і поливами традиційного ручного і промислового виробництва. Для формування гончарного виробу бубнівські майстри використовують традиційний ножний гончарний круг власного виробництва.
+                </div>
+            </div>
+        </div>
+        <div class="item__project">
+            <img class="project__img" src="img/projects/7.jpg">
+            <div class="item__project__hover">
+
+                <div class="item__project__text">
+                    Випалювання виробів традиційно здійснювали у власноруч збудованому гончарному горні (піч особливої конструкції з двома камерами), але нині частіше застосовують муфельні електропечі.
+                </div>
+            </div>
+        </div>
+        <div class="item__project">
+            <img class="project__img" src="img/projects/8.jpg">
+            <div class="item__project__hover">
+
+                <div class="item__project__text">
+                    Побачити експозицію бубнівської кераміки можна на обласних, регіональних, всеукраїнських  виставках, пленерах, а також у Музеї-садибі братів Герасименків у с. Новоселівка Гайсинського району Вінницької області.
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+     <div class="kerivnuku" id="kerivnuku">
+        <div class="kerivnuku__inner">
+
+            <div class="kerivnuku__item" //data-aos="fade-up"//>
+                <div class="kerivnuku__photo">
+                    <img class="kerivnuku__img" src="img/kerivnuku/1.jpg">
+                </div>
+                <div class="kerivnuku__name">Рижий Василь</div>
+                <div class="kerivnuku__profname">Майстер-гончар</div>
+                <div class="kerivnuku__text">Доцент у Тульчинському коледжі культури.
+                   </div>
+                <div class="kerivnuku__links">
+                        <a class="social__item" href="#" target="_blank">
+                            <svg class="social__icon">
+                                <use xlink:href="#facebook"></use>
+                            </svg>
+                        </a>
+                        <a class="social__item" href="#" target="_blank">
+                            <svg class="social__icon">
+                                <use xlink:href="#twitter"></use>
+                            </svg>
+                        </a>
+                        <a class="social__item" href="#" target="_blank">
+                            <svg class="social__icon">
+                                <use xlink:href="#linkedin"></use>
+                            </svg>
+                        </a>
+                    </div>
+            </div>
+
+            <div class="kerivnuku__item" //data-aos="fade-up"
+            //data-aos-delay="100"//>
+                <div class="kerivnuku__photo">
+                    <img class="kerivnuku__img" src="img/kerivnuku/2.jpg">
+                </div>
+                <div class="kerivnuku__name">Лавренюк Наталія</div>
+                <div class="kerivnuku__profname">Майстер-гончар</div>
+                <div class="kerivnuku__text">Доцент у Тульчинському коледжі культури.
+                    </div>
+                <div class="kerivnuku__links">
+                        <a class="social__item" href="https://www.facebook.com/natalii.lavrenyuk" target="_blank">
+                            <svg class="social__icon">
+                                <use xlink:href="#facebook"></use>
+                            </svg>
+                        </a>
+                        <a class="social__item" href="#" target="_blank">
+                            <svg class="social__icon">
+                                <use xlink:href="#twitter"></use>
+                            </svg>
+                        </a>
+                        <a class="social__item" href="#" target="_blank">
+                            <svg class="social__icon">
+                                <use xlink:href="#linkedin"></use>
+                            </svg>
+                        </a>
+                    </div>
+            </div>
+
+            <div class="kerivnuku__item" //data-aos="fade-up"
+            //data-aos-delay="150">
+                <div class="kerivnuku__photo">
+                    <img class="kerivnuku__img" src="img/kerivnuku/3.jpg">
+                </div>
+                <div class="kerivnuku__name">Грималюк Богдан</div>
+                <div class="kerivnuku__profname">Голова "КерамАРТмісто" </div>
+                <div class="kerivnuku__text">Доцент у Тульчинському коледжі культури.</div>
+                <div class="kerivnuku__links">
+                        <a class="social__item" href="https://www.facebook.com/roman.grimalyuk" target="_blank">
+                            <svg class="social__icon">
+                                <use xlink:href="#facebook"></use>
+                            </svg>
+                        </a>
+                        <a class="social__item" href="#" target="_blank">
+                            <svg class="social__icon">
+                                <use xlink:href="#twitter"></use>
+                            </svg>
+                        </a>
+                        <a class="social__item" href="#" target="_blank">
+                            <svg class="social__icon">
+                                <use xlink:href="#linkedin"></use>
+                            </svg>
+                        </a>
+                    </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="contacts">
+        <div class="contacts__inner" data-aos="zoom-in">
+            <div class="contacts__map" >
+                <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d119060.57905219587!2d28.781013539035662!3d48.74576050045463!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x40cd402e1586e9ab%3A0x18aa655336266a10!2zZ29vZ2xlIG1hcHMg0YLRg9C70YzRh9C40L3RgdGM0LrQuNC5INC60L7Qu9C10LTQtiDQutGD0LvRjNGC0YPRgNC4!3m2!1d48.6735924!2d28.8580741!5e0!3m2!1sru!2sua!4v1653819818566!5m2!1sru!2sua"width="777" height="614" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+            <div class="contacts__info">
+
+                    <div class="contacts__tel">Number: 04335 22470</div>
+                    <div class="contacts__email"> Email: tulchin_college_of_culture@gmail.com</div>
+                    <div class="contact__address">  Адреса: вулиця Леонтовича, 52, Тульчин, Вінницька область, 23600</div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+     <div class="footer">
+        <div class="footer__inner">
+            <div class="footer__text">
+                Made by Yurii Andrushchenko
+            </div>
+        </div>
+    </div>
+
+<script src="app.js"></script>
+<script src="aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
+</body>
+</html>
+
