@@ -1027,7 +1027,7 @@ h1,h2,h3,h4,h5,h6, p
     }
 }
 
-@media (max-width:1000px) and (orientation: landscape) {
+@media (min-width:700px)  and (max-width:950px) {
 
     .header__inner{
         padding: 0 15px;
